@@ -1,8 +1,11 @@
-var age = 22;
-let now = new Date().getTime();
+let age = 23;
 
-if (Date.now() > new Date('October 27, 2022 00:00:00 GMT+1000')){
-    age = age+1;
+if (Date.now() > new Date('October 27, 2023 00:00:00 GMT+1000')){
+    let date = new Date();
+    let year = date.getFullYear();
+    
+     age = year - 1999;
+    
 
 }
 
@@ -47,7 +50,7 @@ $('#about').append('<div class="container py-md-5 py-4">\
                 </li>\
             </ul>\
         </div>\
-        <a href="/assets/OjoIsaac2022.pdf" class="btn btn-style mt-5">Download CV</a>\
+        <a href="/assets/IsaacOjo2023.pdf" class="btn btn-style mt-5">Download CV</a>\
     </div>\
 </div>\
 </div>')
@@ -68,7 +71,7 @@ $('#progress').append('<div class="container py-md-5 py-4">\
             </div>\
         </div>\
         <div class="progress-info info2">\
-            <h6 class="progress-tittle">HTML/CSS <span class=""></span>\
+            <h6 class="progress-tittle">React <span class=""></span>\
             </h6>\
             <div class="progress">\
                 <div class="progress-bar progress-bar-striped gradient-2" role="progressbar"\
@@ -77,7 +80,7 @@ $('#progress').append('<div class="container py-md-5 py-4">\
             </div>\
         </div>\
         <div class="progress-info info3">\
-            <h6 class="progress-tittle">JavaScript <span class=""></span></h6>\
+            <h6 class="progress-tittle">JavaScript / TypeScript <span class=""></span></h6>\
             <div class="progress">\
                 <div class="progress-bar progress-bar-striped gradient-3" role="progressbar"\
                     style="width: 60%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">\
@@ -90,7 +93,7 @@ $('#progress').append('<div class="container py-md-5 py-4">\
     <div class="col-lg-6 ps-lg-5 mt-lg-0 mt-5">\
         \
         <div class="progress-info info3">\
-            <h6 class="progress-tittle">Java <span class=""></span></h6>\
+            <h6 class="progress-tittle">Next.js <span class=""></span></h6>\
             <div class="progress">\
                 <div class="progress-bar progress-bar-striped gradient-3" role="progressbar"\
                     style="width: 80%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">\
