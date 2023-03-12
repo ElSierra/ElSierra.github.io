@@ -1,15 +1,14 @@
 let age = 23;
 
-if (Date.now() > new Date('October 27, 2023 00:00:00 GMT+1000')){
-    let date = new Date();
-    let year = date.getFullYear();
-    
-     age = year - 1999;
-    
+if (Date.now() > new Date("October 27, 2023 00:00:00 GMT+1000")) {
+  let date = new Date();
+  let year = date.getFullYear();
 
+  age = year - 1999;
 }
 
-$('#about').append('<div class="container py-md-5 py-4">\
+$("#about").append(
+  '<div class="container py-md-5 py-4">\
 <div class="row align-items-center">\
     <div class="col-lg-4">\
         <div class="position-relative">\
@@ -53,9 +52,11 @@ $('#about').append('<div class="container py-md-5 py-4">\
         <a href="/assets/IsaacOjo2023.pdf" class="btn btn-style mt-5">Download CV</a>\
     </div>\
 </div>\
-</div>')
+</div>'
+);
 
-$('#progress').append('<div class="container py-md-5 py-4">\
+$("#progress").append(
+  '<div class="container py-md-5 py-4">\
 <div class="title-heading-w3 text-center mb-sm-5 mb-4">\
     <h5 class="title-small mb-1">My Skills</h5>\
     <h3 class="title-style">My Expertise Area</h3>\
@@ -111,9 +112,11 @@ $('#progress').append('<div class="container py-md-5 py-4">\
         \
     </div>\
 </div>\
-</div>');
+</div>'
+);
 
-$('#resume').append('<div class="container py-lg-5 py-4">\
+$("#resume").append(
+  '<div class="container py-lg-5 py-4">\
 <div class="title-heading-w3 text-center mb-sm-5 mb-4">\
     <h5 class="title-small">Resume</h5>\
     <h3 class="title-style">Awesome Journey</h3>\
@@ -148,17 +151,38 @@ $('#resume').append('<div class="container py-lg-5 py-4">\
         <h5 class="sub-title-timeline"><i class="fas fa-briefcase"></i> Experience</h5>\
         <div class="timeline">\
            \
-            \
-            <div class="column">\
-                <div class="title">\
-                    <h2>Freelance App Dev</h2>\
-                </div>\
-                <div class="description">\
-                    <p>Self</p>\
-                    <h6><i class="fas fa-calendar-alt"></i> 2021 - Present</h6>\
-                </div>\
-            </div>\
            \
+           <div class="column">\
+               <div class="title">\
+                   <h2>Full stack developer</h2>\
+               </div>\
+               <div class="description">\
+                   <p>Social genius</p>\
+                   <h6><i class="fas fa-calendar-alt"></i> 2023 - Present</h6>\
+               </div>\
+           </div>\
+          \
+           \
+           <div class="column">\
+               <div class="title">\
+                   <h2>Front End Developer</h2>\
+               </div>\
+               <div class="description">\
+                   <p>Wadi</p>\
+                   <h6><i class="fas fa-calendar-alt"></i> 2023 [Contract] </h6>\
+               </div>\
+           </div>\
+             \
+          <div class="column">\
+              <div class="title">\
+                  <h2>Freelance App Dev</h2>\
+              </div>\
+              <div class="description">\
+                  <p>Self</p>\
+                  <h6><i class="fas fa-calendar-alt"></i> 2021 - Present</h6>\
+              </div>\
+          </div>\
+         \
             <div class="column">\
                 <div class="title">\
                     <h2>Web3 Developer</h2>\
@@ -191,8 +215,8 @@ $('#resume').append('<div class="container py-lg-5 py-4">\
         </div>\
     </div>\
 </div>\
-</div>')
-$('zzz').append('bfbfb');
+</div>'
+);
+$("zzz").append("bfbfb");
 
-$('#age').text(age + " Years");
-
+$("#age").text(age + " Years");
